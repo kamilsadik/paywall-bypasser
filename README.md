@@ -1,4 +1,4 @@
-# Archive Paywall Bypasser
+# Paywall Bypasser
 
 A Chrome extension that automatically redirects paywalled news websites to their archive.ph versions, allowing you to read articles without subscription barriers.
 
@@ -26,8 +26,8 @@ A Chrome extension that automatically redirects paywalled news websites to their
 
 1. **Download the Extension**
    ```bash
-   git clone https://github.com/yourusername/archive-extension.git
-   cd archive-extension
+   git clone https://github.com/yourusername/paywall-bypasser.git
+   cd paywall-bypasser
    ```
 
 2. **Open Chrome Extensions Page**
@@ -36,12 +36,12 @@ A Chrome extension that automatically redirects paywalled news websites to their
 
 3. **Load the Extension**
    - Click "Load unpacked"
-   - Select the `archive-extension` folder
+   - Select the `paywall-bypasser` folder
    - The extension should now appear in your extensions list
 
 4. **Pin the Extension** (Optional)
    - Click the puzzle piece icon in Chrome toolbar
-   - Pin "Archive Paywall Bypasser" for easy access
+   - Pin "Paywall Bypasser" for easy access
 
 ## Usage
 
@@ -82,7 +82,7 @@ The extension uses multiple approaches to bypass paywalls:
 
 ### File Structure
 ```
-archive-extension/
+paywall-bypasser/
 ├── manifest.json          # Extension configuration
 ├── background.js          # Service worker for redirects
 ├── content.js            # Content script for paywall detection
