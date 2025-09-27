@@ -26,7 +26,7 @@ A Chrome extension that automatically redirects paywalled news websites to their
 
 1. **Download the Extension**
    ```bash
-   git clone https://github.com/yourusername/paywall-bypasser.git
+   git clone https://github.com/kamilsadik/paywall-bypasser.git
    cd paywall-bypasser
    ```
 
